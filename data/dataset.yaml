@@ -1,0 +1,11 @@
+# modify to correct paths of your option
+# The paths assume that you are running from
+# /contents/yolov5
+train: ../dataset/train
+val: ../dataset/val
+
+# number of classes
+nc: 3
+
+# class names
+names: ['Person', 'Truck', 'Cow']
